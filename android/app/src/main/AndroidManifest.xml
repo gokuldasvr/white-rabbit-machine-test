@@ -1,5 +1,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.white_rabbit_challenge">
+
+    
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+
    <application
         android:label="white_rabbit_challenge"
         android:icon="@mipmap/ic_launcher">
